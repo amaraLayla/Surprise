@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mission: Ayesha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+            <div class="logo">MISSION: AYESHA</div>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#mission">Mission</a>
+                <a href="#memes">Memes</a>
+                <a href="#random">Random</a>
+                <a href="#message">Message</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-text">
+                🔒 CLASSIFIED INFORMATION
+            </p>
+
+            <h1>
+                Mission:<br>
+                Ayesha.
+            </h1>
+
+            <p>
+                You've been selected for a highly classified mission.
+            </p>
+
+            <p>
+                Your objective is simple:
+                <strong>click everything suspicious.</strong>
+            </p>
+
+            <a href="#mission" class="button">
+                Start Mission ↓
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- MISSION -->
+    <section id="mission" class="section">
+
+        <p class="section-label">
+            01 — THE MISSION
+        </p>
+
+        <h2>
+            So... why are you here? 👀
+        </h2>
+
+        <p class="description">
+            Honestly, I could explain everything right now...
+            but where would be the fun in that?
+        </p>
+
+        <div class="mission-card">
+
+            <span class="mission-icon">🕵️</span>
+
+            <h3>
+                Your mission
+            </h3>
+
+            <p>
+                Explore this extremely important,
+                definitely-not-random website and
+                discover what I've hidden inside.
+            </p>
+
+<button class="button mission-button" onclick="acceptMission()">
+    Accept Mission
+</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMES -->
+    <section id="memes" class="section memes-section">
+
+        <p class="section-label">
+            02 — THE MEME DEPARTMENT
+        </p>
+
+        <h2>
+            Our communication system:
+        </h2>
+
+        <div class="meme-chain">
+
+            <div class="meme-step">
+                <span>📨</span>
+                <h3>Ayesha</h3>
+                <p>Sends one meme.</p>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="meme-step">
+                <span>💀</span>
+                <h3>Me</h3>
+                <p>Sends approximately 17 memes.</p>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="meme-step">
+                <span>😭</span>
+                <h3>Ayesha</h3>
+                <p>Sends even more.</p>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="meme-step">
+                <span>💬</span>
+                <h3>Somehow...</h3>
+                <p>We're talking for an hour.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+<div class="rewards-button-container">
+    <a href="rewards.html" class="button">
+        🏆 Claim Your Rewards
+    </a>
+</div>
+
+
+
+
+
+
+
+
+    <!-- RANDOM -->
+    <section id="random" class="section random-section">
+
+        <p class="section-label">
+            04 — RANDOM ZONE
+        </p>
+
+        <h2>
+            Click something.
+        </h2>
+
+        <p class="description">
+            There is absolutely no guarantee that
+            anything useful will happen.
+        </p>
+
+        <div class="random-buttons">
+
+          <a href="clickme.html" class="button">
+    👀 Click me
+</a>
+
+<a href="dontclick.html" class="button">
+    🚨 Definitely Don't Click
+</a>
+
+<a href="sus.html" class="button">
+    💀 This Looks Suspicious
+</a>
+
+        </div>
+
+        <p id="random-result"></p>
+
+    </section>
+
+
+    <!-- MESSAGE -->
+    <section id="message" class="section message-section">
+
+        <p class="section-label">
+            05 — A LITTLE MESSAGE
+        </p>
+
+        <h2>
+            Okay, serious part for a second. 
+        </h2>
+
+        <div class="message-card">
+
+            <p>
+                Ayesha'mm, I just wanted to say thank you.
+            </p>
+
+            <p>
+                Thank you for always managing to make me
+                laugh, especially when I'm having a bad day.
+                Somehow you always make things feel a little
+                lighter.
+            </p>
+
+            <p>
+                And thank you for all the random conversations,
+                memes, jokes, and especially your
+                <strong>beautiful comments</strong>
+                that somehow manage to make me laugh and
+                hide my face at the same time. 
+            </p>
+
+            <p>
+                I'm really glad I got to know you.
+            </p>
+
+            <div class="final-note">
+                ♡ Thank you for being you. ♡
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL -->
+    <section class="final-section">
+
+        <p class="section-label">
+            MISSION COMPLETE
+        </p>
+
+        <h2>
+            You found everything. 🎁
+        </h2>
+
+        <p>
+            Your reward is absolutely nothing.
+        </p>
+
+        <p>
+            Except this tiny reminder that
+            I'm really glad I met you. ♡
+        </p>
+
+        <p class="last-line">
+            Now go send me another meme.
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        Made with questionable amounts of HTML, CSS,
+        and memes. ♡
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+<script>function acceptMission() {
+    const button = document.querySelector(".mission-button");
+
+    button.classList.add("accepted");
+
+    setTimeout(() => {
+        button.textContent = "Mission Accepted ✓";
+    }, 2000);
+}</script>
